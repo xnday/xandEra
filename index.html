@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xandEra (XNDA) | The Era of Scarcity</title>
+    <style>
+        :root {
+            --primary: #8247e5; 
+            --accent-gold: #ffd700;
+            --pure-white: #ffffff;
+            --bg: #0f172a;
+            --text-secondary: #94a3b8;
+        }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--bg);
+            color: var(--pure-white);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container { max-width: 900px; padding: 2rem; }
+        .logo { width: 150px; height: 150px; margin-bottom: 20px; border-radius: 50%; box-shadow: 0 0 30px rgba(130, 71, 229, 0.4); border: 2px solid var(--accent-gold); }
+        
+        h1 { font-size: 4rem; margin-bottom: 0.5rem; letter-spacing: -1px; }
+        .xand { color: var(--pure-white); font-weight: 700; }
+        .era { color: var(--accent-gold); font-weight: 800; }
+
+        p { font-size: 1.2rem; line-height: 1.6; color: var(--text-secondary); max-width: 600px; margin: 0 auto; }
+        
+        /* Aliniere pe un singur rând */
+        .stats { 
+            display: flex; 
+            justify-content: space-between; 
+            gap: 15px; 
+            margin-top: 40px; 
+        }
+        .stat-card { 
+            flex: 1; /* Toate chenarele vor avea lățime egală */
+            background: rgba(255, 255, 255, 0.03); 
+            padding: 20px 10px; 
+            border-radius: 16px; 
+            border: 1px solid rgba(255, 215, 0, 0.2); 
+        }
+        .stat-card h3 { margin: 0; color: var(--primary); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; }
+        .stat-card p { margin: 10px 0 0; font-size: 1.3rem; font-weight: bold; color: var(--pure-white); }
+        
+        .contract { margin-top: 40px; padding: 20px; background: #1e293b; border-radius: 12px; word-break: break-all; font-family: monospace; border: 1px solid var(--primary); color: var(--accent-gold); }
+        .btn { display: inline-block; margin-top: 30px; padding: 15px 40px; background: linear-gradient(45deg, var(--primary), #a855f7); color: white; text-decoration: none; border-radius: 50px; font-weight: bold; transition: 0.3s; }
+        .btn:hover { transform: translateY(-3px); }
+
+        /* Responsivitate pentru ecrane mici */
+        @media (max-width: 600px) {
+            .stats { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="xandEra Logo" class="logo">
+        
+        <h1><span class="xand">xand</span><span class="era">Era</span></h1>
+        
+        <p>A premier digital asset on the Polygon Network, defined by mathematical scarcity and elite positioning.</p>
+        
+        <div class="stats">
+            <div class="stat-card"><h3>Total Supply</h3><p>13,550,001</p></div>
+            <div class="stat-card"><h3>Network</h3><p>Polygon</p></div>
+            <div class="stat-card"><h3>Tier</h3><p>Exclusive</p></div>
+        </div>
+        
+        <div class="contract">
+            <small style="color: #94a3b8;">Official Smart Contract:</small><br>
+            0xb25e63277ceF3F2151aB6aAF5b52AcB4b17688FC
+        </div>
+        
+        <a href="https://polygonscan.com/token/0xb25e63277ceF3F2151aB6aAF5b52AcB4b17688FC" target="_blank" class="btn">Explore on Polygonscan</a>
+    </div>
+</body>
+</html>
