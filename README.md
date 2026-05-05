@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="logo.png" width="150" alt="XandEra Logo">
+</p>
 # xandEra
 XandEra (XNDA) | The Era of Scarcity
 XandEra is not just another token; it is a statement of digital scarcity and architectural precision. Built on the Polygon network, XNDA was designed for those who value exclusivity over mass-inflation.
