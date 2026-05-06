@@ -1,5 +1,5 @@
-<p align="left">
-  <img src="logo.png" width="150" alt="xandEra Logo">
+<p align="center">
+  <img src="logo.png" width="450" alt="xandEra Logo">
 </p>
 xandEra (XNDA) | The Era of Scarcity
 xandEra is not just another token; it is a statement of digital scarcity and architectural precision. Built on the Polygon network, XNDA was designed for those who value exclusivity over mass-inflation.
@@ -12,13 +12,13 @@ Token Name: xandEra
 
 Symbol: XNDA
 
-Total Supply: 13,550,001 XNDA
+Total Supply: 10,000,000 XNDA
 
 Network: Polygon (POS)
 
 Decimals: 18
 
-Contract Address: 0xb25e63277ceF3F2151aB6aAF5b52AcB4b17688FC
+Contract Address: 0x1477F49Eaac271D3c0E6e5F2a0c6a5DC538a0811
 
 🛡️ Trust & Transparency
 Verified Contract: Our code is fully verified on Polygonscan to ensure 100% transparency.
