@@ -12,7 +12,7 @@ Token Name: xandEra
 
 Symbol: XNDA
 
-Total Supply: 10,000,000 XNDA
+Total Supply: 2,000,000 XNDA
 
 Network: Polygon (POS)
 
